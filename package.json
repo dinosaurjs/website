@@ -1,0 +1,24 @@
+{
+  "name": "dinosaurjs-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdirp dist && cp index.html dist",
+    "test": "echo \"It is just an HTML file right now. No need for tests!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinosaurjs/website.git"
+  },
+  "keywords": [],
+  "author": "DinosaurJS <roar@dinosaurjs.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinosaurjs/website/issues"
+  },
+  "homepage": "https://github.com/dinosaurjs/website#readme",
+  "devDependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
