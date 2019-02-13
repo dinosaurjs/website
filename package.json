@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdirp dist && cp index.html dist",
+    "build": "mkdirp dist && cp site/* dist",
     "test": "echo \"It is just an HTML file right now. No need for tests!\" && exit 0"
   },
   "repository": {
