@@ -86,7 +86,7 @@ li {
 }
 
 nav {
-  width: 100%; 
+  max-width: 100%; 
   margin-bottom: 3em;
 }
 
@@ -119,4 +119,18 @@ footer {
 footer > a {
   color: #BBBBBB;
   background-color: white;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    margin-bottom: 2em; !important
+  }
 }
