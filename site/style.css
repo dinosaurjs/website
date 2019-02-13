@@ -91,23 +91,25 @@ nav {
 }
 
 nav ul {
-  width: 100%;
-  margin-left: 0;
-  padding-left: 0;
   display: flex;
   justify-content: center;
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
 }
 
 nav li {
-  list-style-type: none;
   display: block;
+  list-style-type: none;
   margin: 1em;
 }
 
 nav a {
   background-color: pink;
   border-bottom: 3px solid rgb(190, 100, 163);
+  display: block;
   padding: 1em;
+  text-align: center;
 }
 
 footer {
@@ -128,9 +130,10 @@ footer > a {
 
   nav ul {
     display: block;
+    margin: 1em 0;
   }
 
   nav li {
-    margin-bottom: 2em; !important
+    margin-bottom: 2em;
   }
 }
