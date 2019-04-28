@@ -1,12 +1,28 @@
 import React, { Component } from 'react';
 import Speaker from "./speaker"
+import SpeakerModal from "./speakerModal"
 import './speakers.css'
-import speaker from './speaker.png'
 
 
 class Speakers extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
+    this.state = {
+      showModal: false,
+      modalSpeaker: null
+    };
+
+    this.handleOpenModal = this.handleOpenModal.bind(this);
+    this.handleCloseModal = this.handleCloseModal.bind(this);
+  }
+
+  handleOpenModal(modalSpeaker) {
+    this.setState({ showModal: true });
+    this.setState({ modalSpeaker: modalSpeaker });
+  }
+
+  handleCloseModal () {
+    this.setState({ showModal: false });
   }
 
   render() {
@@ -15,12 +31,12 @@ class Speakers extends Component {
         <header>Speakers</header>
         <div className="speakers">
           {this.props.speakers.map(speaker =>
-            <Speaker image={speaker.picture}
-                     name={speaker.name}
-                     title={speaker.title}
-                     text={speaker.abstract}
-                     twitter={speaker.twitter} /> )}
+            <Speaker speaker={speaker}
+                     openModal={this.handleOpenModal}/> )}
         </div>
+        <SpeakerModal isOpen={this.state.showModal}
+                      speaker={this.state.modalSpeaker}
+                      closeModal={this.handleCloseModal}/>
       </div>
     )
   }
