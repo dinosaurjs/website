@@ -33,7 +33,7 @@ class Landing extends Component {
         </div>
         <img className="logo" src={logo}/>
         <div className="titlebar">
-          <div className="title">
+          <div className="conf-title">
             DinosaurJS 2019
           </div>
           <hr className="bar">

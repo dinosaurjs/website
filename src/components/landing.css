@@ -61,13 +61,15 @@ li {
   width: 75%;
 }
 
-.title {
+.conf-title {
   padding: 3% 0% 1% 0%;
+  letter-spacing: .15em;
 }
 
 .date {
   font-size: 18px;
   padding: 1% 0% 3% 0%;
+  letter-spacing: .15em;
 }
 
 hr {
@@ -78,7 +80,7 @@ hr {
 .infobar {
   width: 60%;
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 
 .info {

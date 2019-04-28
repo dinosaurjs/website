@@ -1,0 +1,24 @@
+.schedule-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 8%;
+}
+
+.schedule-panel header {
+  color: black;
+  padding: 0% 0% 4% 0%;
+  letter-spacing: .15em;
+}
+
+.schedules {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.schedule {
+  padding: 4%;
+}

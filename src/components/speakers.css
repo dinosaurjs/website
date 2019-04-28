@@ -11,8 +11,9 @@ header {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  padding: 4% 0% 3% 0%;
+  padding: 6% 0% 1.5% 0%;
   font-size: 20px;
+  letter-spacing: .15em;
 }
 
 .speakers {
@@ -21,11 +22,12 @@ header {
   flex-wrap: wrap;
   color: white;
   justify-content: center;
+  padding-bottom: 8%;
 }
 
 .speaker {
   max-width: 25%;
-  margin: 1%;
+  margin: 3% 1% 1% 1%;
   height: 20%;
   justify-content: center;
   text-align: center;
@@ -38,7 +40,7 @@ header {
   border-style: solid;
   border-color: #F05942;
   border-width: 2px;
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -66,4 +68,24 @@ header {
 .speaker .text {
   font-size: 14px;
   padding: 1% 0% 1% 0%;
+  overflow: hidden;
+  position: relative;
+  line-height: 1.2em;
+  max-height: 4.6em;
+}
+
+.text:before {
+  content: '...';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.text:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
 }
