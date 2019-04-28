@@ -1,0 +1,30 @@
+.speaker-panel {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3% 0% 3% 0%;
+  font-size: 18px;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker {
+  max-width: 28%;
+  padding: 1%;
+}

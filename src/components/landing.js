@@ -32,15 +32,22 @@ class Landing extends Component {
         </ul>
         </div>
         <img className="logo" src={logo}/>
-        <div className="title-bar">
-
+        <div className="titlebar">
+          <div className="title">
+            DinosaurJS 2019
+          </div>
+          <hr className="bar">
+          </hr>
+          <div className="date">
+            June 20 2019
+          </div>
         </div>
         <div className="infobar">
-          <div className="info1">
+          <div className="info">
             DinosaurJS is a non-profit, community-driven JavaScript and Open Web conference in Denver, Colorado.
           </div>
-          <div className="info2">
-            DinosaurJS is part of the <a href="https://jsconf.com/">JSConf Family of Events</a> and adheres to the <a href="https://jsconf.com/codeofconduct.html">JSConf Code of Conduct.</a>
+          <div className="info">
+            DinosaurJS is part of the <a className="js-link" href="https://jsconf.com/">JSConf Family of Events</a> and adheres to the <a className="js-link" href="https://jsconf.com/codeofconduct.html">JSConf Code of Conduct.</a>
           </div>
         </div>
       </div>
