@@ -4,16 +4,17 @@ import Speakers from "./speakers"
 import './app.css'
 
 
+
 class App extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
   }
 
   render() {
     return (
       <>
         <Landing/>
-        <Speakers/>
+        <Speakers speakers={this.props.speakers}/>
       </>
     )
   }

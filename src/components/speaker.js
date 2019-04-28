@@ -10,9 +10,7 @@ class Speaker extends Component {
   render() {
     return (
       <div className="speaker">
-        <td>
-          <img src={this.props.image} />
-        </td>
+        <img src={this.props.image} />
         <div className="speaker-text name">
           {this.props.name}
         </div>

@@ -14,22 +14,12 @@ class Speakers extends Component {
       <div className="speaker-panel">
         <header>Speakers</header>
         <div className="speakers">
-          <Speaker image={speaker}
-                   name="name1"
-                   title="title1"
-                   text="text1"/>
-          <Speaker image={speaker}
-                   name="name2"
-                   title="title2"
-                   text="text2"/>
-          <Speaker image={speaker}
-                   name="name3"
-                   title="title3"
-                   text="text3"/>
-          <Speaker image={speaker}
-                   name="name4"
-                   title="title4"
-                   text="text4"/>
+          {this.props.speakers.map(speaker =>
+            <Speaker image={speaker.picture}
+                     name={speaker.name}
+                     title={speaker.title}
+                     text={speaker.abstract}
+                     twitter={speaker.twitter} /> )}
         </div>
       </div>
     )

@@ -11,8 +11,8 @@ header {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  padding: 3% 0% 3% 0%;
-  font-size: 18px;
+  padding: 4% 0% 3% 0%;
+  font-size: 20px;
 }
 
 .speakers {
@@ -21,10 +21,49 @@ header {
   flex-wrap: wrap;
   color: white;
   justify-content: center;
-  align-items: center;
 }
 
 .speaker {
-  max-width: 28%;
-  padding: 1%;
+  max-width: 25%;
+  margin: 1%;
+  height: 20%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.speaker img {
+  border-radius: 50%;
+  height: 150px;
+  border-style: solid;
+  border-color: #F05942;
+  border-width: 2px;
+  max-width: 80%;
+  height: auto;
+}
+
+.speaker-text {
+  padding: 1% 0% 1% 0%;
+  width: 100%;
+}
+
+.speaker hr {
+  border-color: #A9BCC6;
+  margin: 2% 15% 3% 15%;
+
+}
+
+.speaker .name {
+  font-size: 18px;
+}
+
+.speaker .title {
+  font-size: 16px;
+  padding: 1% 15% 2% 15%;
+  margin: 2% 0% 2% 0%;
+}
+
+.speaker .text {
+  font-size: 14px;
+  padding: 1% 0% 1% 0%;
 }
