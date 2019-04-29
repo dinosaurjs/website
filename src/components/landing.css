@@ -33,4 +33,21 @@
 
 .information {
   width: 80%;
+  font-size: 16px;
+}
+
+.information p {
+  line-height: 1.8em;
+  padding: 2em;
+}
+
+.information a {
+  color: black;
+  background-color: #ABBCC4;
+  padding: 5px;
+}
+
+.information a:hover {
+  color: white;
+  background-color: #F05A42;
 }

@@ -35,7 +35,7 @@ export default () => (
         </header>
         <article className="information">
           <p className="info">
-            DinosaurJS is a non-profit, community-driven JavaScript and Open Web conference in Denver, Colorado.
+            DinosaurJS is a non-profit, community-driven JavaScript and Open Web conference in Denver, Colorado. This year, it will be located at the Studio Loft inside side of the Denver Performing Arts Center on 14th in Curtis in lower downtown.
           </p>
           <p className="info">
             DinosaurJS is part of the <a className="js-link" href="https://jsconf.com/">JSConf Family of Events</a> and adheres to the <a className="js-link" href="https://jsconf.com/codeofconduct.html">JSConf Code of Conduct.</a>
