@@ -12,7 +12,7 @@ class Schedule extends Component {
         <header className="panel-header">
           <h2>Schedule</h2>
         </header>
-        <p>Coming</p>
+        <p>Coming soon!</p>
       </div>
     )
   }

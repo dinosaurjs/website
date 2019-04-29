@@ -20,3 +20,17 @@
 .ticket-text {
   line-height: 2em;
 }
+
+.button {
+  font-size: 18px;
+  padding: 1em;
+  border: 3px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.button:hover {
+  color: white;
+  background-color: #F05A42;
+}
