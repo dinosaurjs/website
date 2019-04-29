@@ -1,46 +1,36 @@
-import React, { Component } from 'react';
+import React from "react"
 import Speaker from "./speaker"
-import SpeakerModal from "./speakerModal"
-import './speakers.css'
 
+import "./speakers.css"
 
-class Speakers extends Component {
-  constructor() {
-    super()
-    this.state = {
-      showModal: false,
-      modalSpeaker: null
-    };
+import { StaticQuery, graphql } from "gatsby"
 
-    this.handleOpenModal = this.handleOpenModal.bind(this);
-    this.handleCloseModal = this.handleCloseModal.bind(this);
-  }
-
-  handleOpenModal(modalSpeaker) {
-    this.setState({ showModal: true });
-    this.setState({ modalSpeaker: modalSpeaker });
-  }
-
-  handleCloseModal () {
-    this.setState({ showModal: false });
-  }
-
-  render() {
-    return (
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query SpeakerQuery {
+        allSpeakersJson {
+          edges {
+            node {
+              name
+              title
+              picture
+              abstract
+              twitter
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
       <div className="speaker-panel">
         <header>Speakers</header>
         <div className="speakers">
-          {this.props.speakers.map(speaker =>
-            <Speaker speaker={speaker}
-                     openModal={this.handleOpenModal}/> )}
+          {data.allSpeakersJson.edges.map(({ node: speaker }) => (
+            <Speaker speaker={speaker} key={speaker.twitter} />
+          ))}
         </div>
-        <SpeakerModal isOpen={this.state.showModal}
-                      speaker={this.state.modalSpeaker}
-                      closeModal={this.handleCloseModal}/>
       </div>
-    )
-  }
-}
-
-
-export default Speakers;
+    )}
+  />
+)

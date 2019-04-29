@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Twilio",
+    "logo": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/sponsors/twilio.png",
+    "url": "https://twilio.com/",
+    "premier": true
+  },
+  {
+    "name": "Twilio",
+    "logo": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/sponsors/twilio.png",
+    "url": "https://twilio2.com/",
+    "premier": false
+  }
+]

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import './speakers.css'
 
 
+
 class Speaker extends Component {
   constructor() {
     super()
