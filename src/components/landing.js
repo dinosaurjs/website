@@ -1,37 +1,40 @@
 import React, { Component } from 'react';
-import "./landing.css"
-import logo from './main-logo.png'
-import icon from './2019_icon.png'
+import Img from "gatsby-image";
+import { graphql, StaticQuery } from 'gatsby';
 
-class Landing extends Component {
-  constructor() {
-    super()
+import "./landing.css";
+
+const query = graphql`
+query {
+  siteLogo: file(relativePath: {eq: "site-logo.png"}) {
+    childImageSharp {
+      fixed(width: 610) {
+        base64
+        tracedSVG
+        aspectRatio
+        src
+        srcSet
+        srcWebp
+        srcSetWebp
+        originalName
+        width
+        height
+      }
+    }
   }
+}
+`
 
-  render() {
-    return (
+export default () => (
+  <StaticQuery
+    query={query}
+    render={data => (
       <div className="landing">
-        <div className="navbar">
-          <img className="icon" src={icon}/>
-          <ul className="nav-links">
-            <li>
-              <a href="#" className="nav-link">Speakers</a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">Tickets</a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">Schedule</a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">Sponsors</a>
-            </li>
-            <li>
-              <a href="#" className="nav-link">Contact</a>
-            </li>
-        </ul>
-        </div>
-        <img className="logo" src={logo}/>
+        <Img
+          fixed={data.siteLogo.childImageSharp.fixed}
+          width="610"
+          alt="DinosaurJS 2019"
+        />
         <div className="titlebar">
           <div className="conf-title">
             DinosaurJS 2019
@@ -51,9 +54,6 @@ class Landing extends Component {
           </div>
         </div>
       </div>
-    )
-  }
-}
-
-
-export default Landing;
+    )}
+  />
+)

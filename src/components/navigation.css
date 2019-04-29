@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.navigation-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+.navigation-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.navigation-links li {
+  margin-right: 1em;
+}

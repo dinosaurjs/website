@@ -23,7 +23,7 @@ export default () => (
       }
     `}
     render={data => (
-      <div className="speaker-panel">
+      <div className="speaker-panel" id="speakers">
         <header>Speakers</header>
         <div className="speakers">
           {data.allSpeakersJson.edges.map(({ node: speaker }) => (

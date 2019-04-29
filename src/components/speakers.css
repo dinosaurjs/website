@@ -1,34 +1,20 @@
 .speaker-panel {
   background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-header {
   color: white;
-  text-transform: uppercase;
   text-align: center;
-  padding: 6% 0% 1.5% 0%;
-  font-size: 20px;
-  letter-spacing: .15em;
 }
 
 .speakers {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  color: white;
   justify-content: center;
-  padding-bottom: 8%;
+  margin-bottom: 1em;
 }
 
 .speaker {
-  max-width: 25%;
+  max-width: 400px;
   margin: 3% 1% 1% 1%;
-  height: 20%;
   justify-content: center;
   text-align: center;
 
@@ -49,43 +35,23 @@ header {
   width: 100%;
 }
 
-.speaker hr {
-  border-color: #A9BCC6;
-  margin: 2% 15% 3% 15%;
-
-}
-
 .speaker .name {
-  font-size: 18px;
+  border-bottom: 1px solid #ABBCC4;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
 }
 
 .speaker .title {
   font-size: 16px;
-  padding: 1% 15% 2% 15%;
-  margin: 2% 0% 2% 0%;
+  margin-top: 0.5em;
+  line-height: 1.4em;
 }
 
-.speaker .text {
+.speaker .abstract {
   font-size: 14px;
   padding: 1% 0% 1% 0%;
-  overflow: hidden;
   position: relative;
-  line-height: 1.2em;
-  max-height: 4.6em;
-}
-
-.text:before {
-  content: '...';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-.text:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  width: 1em;
-  height: 1em;
-  margin-top: 0.2em;
-  background: white;
+  line-height: 1.4em;
 }

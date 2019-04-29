@@ -16,21 +16,18 @@ class Speaker extends Component {
 
   render() {
     return (
-      <div className="speaker">
+      <article className="speaker">
         <img src={this.props.speaker.picture} />
-        <div className="speaker-text name">
+        <h2 className="speaker-text name">
           {this.props.speaker.name}
-        </div>
-        <hr/>
-        <div className="speaker-text title">
+        </h2>
+        <h3 className="speaker-text title">
           {this.props.speaker.title}
-        </div>
-        <div className="speaker-text text"
-             onClick={this.handleOpenModal}
-             style={{cursor:'pointer'}}>
+        </h3>
+        <p className="speaker-text abstract">
           {this.props.speaker.abstract}
-        </div>
-      </div>
+        </p>
+      </article>
     )
   }
 }

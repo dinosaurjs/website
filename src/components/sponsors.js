@@ -34,7 +34,7 @@ export default () => (
       const regular = sponsors.filter(({ premier }) => !premier);
 
       return (
-        <section className="sponsors">
+        <section className="sponsors" id="sponsors">
           <section className="premier-sponsors-panel">
             {premier.map(sponsor => <Sponsor {...sponsor} key={sponsor.url} />)}
           </section>

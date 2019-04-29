@@ -1,9 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import App from "./app"
-import "./layout.css"
 
+import Navigation from './navigation';
+import Landing from './landing';
+import Speakers from './speakers';
+import Tickets from './tickets';
+import Schedule from './schedule';
+import Sponsors from './sponsors';
+
+import "./layout.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -17,9 +23,14 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-        <App />
-      </>
+      <main>
+        <Navigation />
+        <Landing/>
+        <Speakers />
+        <Tickets/>
+        <Schedule/>
+        <Sponsors/>
+      </main>
     )}
   />
 )
