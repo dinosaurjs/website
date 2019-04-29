@@ -8,10 +8,12 @@ class Schedule extends Component {
 
   render() {
     return (
-      <section className="schedule-panel">
-        <header>Schedule</header>
-        <p>Coming soon…</p>
-      </section>
+      <div className="schedule-panel panel" id="schedule">
+        <header className="panel-header">
+          <h2>Schedule</h2>
+        </header>
+        <p>Coming</p>
+      </div>
     )
   }
 }

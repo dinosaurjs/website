@@ -2,6 +2,8 @@
   background-color: black;
   color: white;
   text-align: center;
+  width: 100%;
+  padding: 8% 0;
 }
 
 .speakers {
@@ -17,7 +19,6 @@
   margin: 3% 1% 1% 1%;
   justify-content: center;
   text-align: center;
-
 }
 
 .speaker img {

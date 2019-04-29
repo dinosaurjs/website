@@ -601,3 +601,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.panel header {
+  padding: 0% 0% 4% 0%;
+  letter-spacing: .15em;
+}

@@ -4,66 +4,33 @@
     margin: 0;
 }
 
-.landing {
+.hero-panel {
   display: flex;
+  width: 100%;
   flex-direction: column;
+  text-align: center;
   align-items: center;
 }
-.navbar {
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1% 1.5% 1% 1.5%;
-}
 
-.logo {
-  padding-left: 10%;
-  display: block;
-  max-width: 398px;
-  max-height: 185px;
-  width: auto;
-  height: auto;
-
-}
-
-.titlebar {
+.title {
   text-transform: uppercase;
   font-size: 25px;
-  align-items: center;
   text-align: center;
-  width: 75%;
+  margin-top: 1em;
+  width: 80%;
 }
 
-.conf-title {
-  padding: 3% 0% 1% 0%;
+.conference-name {
   letter-spacing: .15em;
+  padding-bottom: 0.5em;
+  border-bottom: 5px solid #F05A42;
 }
 
 .date {
   font-size: 18px;
-  padding: 1% 0% 3% 0%;
   letter-spacing: .15em;
 }
 
-hr {
-  margin-bottom: 0;
-  border-color: #F05942;
-}
-
-.infobar {
-  width: 60%;
-  text-align: center;
-  padding-bottom: 4%;
-}
-
-.info {
-  padding-bottom: 3.5%;
-  padding-top: 2%;
-}
-
-.js-link {
-  color: black;
-  background-color: #A9BCC6;
+.information {
+  width: 80%;
 }

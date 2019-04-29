@@ -20,3 +20,9 @@
 .navigation-links li {
   margin-right: 1em;
 }
+
+@media(max-width: 480px) {
+  .navigation img {
+    display: none;
+  }
+}
