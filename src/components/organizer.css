@@ -1,0 +1,45 @@
+.organizer-panel {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 8% 0;
+}
+
+.organizers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.organizer {
+  max-width: 400px;
+  margin: 3% 1% 1% 1%;
+  justify-content: center;
+  text-align: center;
+}
+
+.organizer img {
+  border-radius: 50%;
+  height: 150px;
+  border-style: solid;
+  border-color: #F05942;
+  border-width: 2px;
+  max-width: 70%;
+  height: auto;
+}
+
+.organizer-text {
+  padding: 1% 0% 1% 0%;
+  width: 100%;
+}
+
+.organizer .name {
+  border-bottom: 1px solid #ABBCC4;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+}

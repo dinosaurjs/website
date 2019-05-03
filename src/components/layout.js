@@ -8,6 +8,7 @@ import Speakers from './speakers';
 import Tickets from './tickets';
 import Schedule from './schedule';
 import Sponsors from './sponsors';
+import Organizers from './organizers';
 
 import "./layout.css"
 
@@ -29,6 +30,7 @@ const Layout = ({ children }) => (
         <Speakers />
         <Tickets/>
         <Sponsors/>
+        <Organizers/>
         <Schedule />
       </main>
     )}
