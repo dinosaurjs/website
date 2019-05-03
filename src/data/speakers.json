@@ -7,6 +7,13 @@
     "abstract": "We talk a lot about how to animate on the web, and what’s possible in browsers today, but where is animation heading? In this talk, we’ll start with some bleeding edge techniques such as native-like page transitions with nuxt, but then we’ll push it further. The intersection of health and animation with biofeedback sensors and Vue, the future of 3d in the browser complete with interviews with people who are writing these specs… this talk will show that in terms of animation on the web, we’re just getting started."
   },
   {
+    "name": "Saimon Sharif",
+    "twitter": "saimonsharif",
+    "picture": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/speakers/saimonsharif.jpg",
+    "title": "Codemods: Refactoring JavaScript Using JavaScript",
+    "abstract": "For large, mature JavaScript codebases with many contributing engineers, it’s very difficult to modernize and change large pieces of extant code. When a library you use has a breaking change, there’s a lot of work to update older, neglected pieces of code. With codemods, engineers can programmatically refactor and create project-wide code changes to modernize their applications while saving hundreds of development hours and dramatically reducing tech debt."
+  },
+  {
     "name": "Cassidy Williams",
     "twitter": "cassidoo",
     "picture": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/speakers/cassidoo.jpg",
@@ -14,25 +21,11 @@
     "abstract": "At CodePen, the team's main goal is to reduce the need for a workflow setup to quickly prototype, build, and/or show off your code. Cassidy recently built out one of the team's latest releases: an entirely new Babel processor from scratch. In this talk, she'll go through the reasoning behind the processor, how Babel plugins work, how the processor was added into the Pen editor, and the potential future for CodePen with that work in place."
   },
   {
-    "name": "Hayley Denbraver",
-    "twitter": "hayleydenb",
-    "picture": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/speakers/hayleydenb.jpg",
-    "title": "A Postmortem on the Ingen Incident",
-    "abstract": "Hayley has prepared her report about the events that occurred on Isla Nublar and will present her findings to the board. Before we vote on whether to restart the project, we need to understand why the failure occurred and hear any recommendations."
-  },
-  {
     "name": "Rich Trott",
     "twitter": "trott",
     "picture": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/speakers/trott.jpg",
     "title": "A Partial Taxonomy of Test Unreliability",
     "abstract": "Humorous, fast-paced, and not-entirely-useless presentation of a taxonomy of causes for test unreliability, treated as though it were a biological taxonomy. Or not."
-  },
-  {
-    "name": "Saimon Sharif",
-    "twitter": "saimonsharif",
-    "picture": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/speakers/saimonsharif.jpg",
-    "title": "Codemods: Refactoring JavaScript Using JavaScript",
-    "abstract": "For large, mature JavaScript codebases with many contributing engineers, it’s very difficult to modernize and change large pieces of extant code. When a library you use has a breaking change, there’s a lot of work to update older, neglected pieces of code. With codemods, engineers can programmatically refactor and create project-wide code changes to modernize their applications while saving hundreds of development hours and dramatically reducing tech debt."
   },
   {
     "name": "Fred K. Schott",
@@ -47,6 +40,13 @@
     "picture": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/speakers/irongirltx.jpg",
     "title": "The Art of Teaching",
     "abstract": "Many senior developers feel compelled to give back to the tech community. They offer to teach classes, pair with less experienced engineers and serve as mentors. This talk will help those engineers learn the most effective teaching strategies used in high performing K-12 classrooms. It will cover: how to check for understanding, how to assess a student’s learning style, why you should avoid the use of sarcasm, when you should stop talking and listen"
+  },
+  {
+    "name": "Hayley Denbraver",
+    "twitter": "hayleydenb",
+    "picture": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/speakers/hayleydenb.jpg",
+    "title": "A Postmortem on the Ingen Incident",
+    "abstract": "Hayley has prepared her report about the events that occurred on Isla Nublar and will present her findings to the board. Before we vote on whether to restart the project, we need to understand why the failure occurred and hear any recommendations."
   },
   {
     "name": "Tejas Kumar",

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `DinosaurJS Website`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `DinosaurJS is a non-profit, community-driven JavaScript and Open Web conference in Denver, Colorado. DinosaurJS is part of the JSConf Family of Events.`,
     author: `@adagonese`,
   },
   plugins: [
@@ -33,6 +33,14 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/src/data/`,
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Poppins']
+        }
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

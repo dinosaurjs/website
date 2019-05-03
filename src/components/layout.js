@@ -28,6 +28,7 @@ const Layout = ({ children }) => (
         <Landing/>
         <Speakers />
         <Tickets/>
+        <Sponsors/>
         <Schedule />
       </main>
     )}

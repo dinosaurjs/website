@@ -1,14 +1,21 @@
 [
   {
-    "name": "Twilio",
-    "logo": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/sponsors/twilio.png",
-    "url": "https://twilio.com/",
+    "name": "Workday",
+    "logo": "https://marketing-image-production.s3.amazonaws.com/uploads/a9ec8253cceeda8b3b13b0e58fd9d48ae62dbbb96ae60aa1b9ec20bd46eedff01cd45b077b4db77a21034240ab311e77602717a41d41ef4b6afe13c86b53ba43.png",
+    "url": "https://workday.com/",
     "premier": true
   },
   {
-    "name": "Twilio",
-    "logo": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/sponsors/twilio.png",
-    "url": "https://twilio2.com/",
+    "name": "Mozilla",
+    "logo": "https://cdn.freebiesupply.com/logos/large/2x/mozilla-logo-png-transparent.png",
+    "url": "https://mozilla.com/",
+    "premier": true
+  },
+    {
+    "name": "TBD, could be you!",
+    "logo": "https://github.com/dinosaurjs/speakers-2019/blob/7073b7e2b09c52e9566bc3f0a8721da17d9b37d1/sponsors/Color%20logo%20-%20no%20background.png?raw=true",
+    "url": "mailto:roar@dinosaurjs.org",
     "premier": false
   }
+
 ]
