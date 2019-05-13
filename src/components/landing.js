@@ -30,7 +30,7 @@ export default () => (
             DinosaurJS
           </h1>
           <h2 className="date">
-            June 20, 2019
+            June 20 and 21, 2019
           </h2>
         </header>
         <article className="information">
