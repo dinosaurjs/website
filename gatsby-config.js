@@ -3,6 +3,7 @@ module.exports = {
     title: `DinosaurJS Website`,
     description: `DinosaurJS is a non-profit, community-driven JavaScript and Open Web conference in Denver, Colorado. DinosaurJS is part of the JSConf Family of Events.`,
     author: `@adagonese`,
+    siteUrl: `https://dinosaurjs.org`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,7 +43,16 @@ module.exports = {
           families: ['Poppins']
         }
       }
-    }
+    },
+    {
+    resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-social-cards`,
+          // ...
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
