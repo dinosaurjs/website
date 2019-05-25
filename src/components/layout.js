@@ -9,6 +9,7 @@ import Tickets from './tickets';
 import Schedule from './schedule';
 import Sponsors from './sponsors';
 import Organizers from './organizers';
+import Scavenge from './scavenge';
 
 import "./layout.css"
 
@@ -32,6 +33,7 @@ const Layout = ({ children }) => (
         <Sponsors/>
         <Organizers/>
         <Schedule />
+        <Scavenge />
       </main>
     )}
   />
