@@ -40,7 +40,7 @@ export default () => (
         <header className="panel-header">
           <h2>Dinosaur Dig</h2>
         </header>
-        <p class="about">Grab your most sturdy shovel and your finest archeology hat. It's time to harness your inner <a href="http://www.dinosaurjungle.com/dinosaur_scientist_maryanning.php" target="_blank">Mary Anning</a> and <a href="http://www.dinosaurjungle.com/dinosaur_scientist_barnumbrown.php" target="_blank">Barnum Brown</a>.
+        <p class="about">Grab a sturdy shovel and your finest archeology hat. It's time to harness your inner <a href="http://www.dinosaurjungle.com/dinosaur_scientist_maryanning.php" target="_blank">Mary Anning</a> and <a href="http://www.dinosaurjungle.com/dinosaur_scientist_barnumbrown.php" target="_blank">Barnum Brown</a>.
         DinosaurJS would like to donate, on your behalf, to a handful of awesome non-profits working to make the world a better place. Let's find some dinosaurs!</p>
 
         <p>Here's how it works:</p>
