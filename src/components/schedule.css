@@ -22,3 +22,36 @@
 .schedule {
   padding: 4%;
 }
+
+.schedule-text {
+  padding: 1% 0% 1% 0%;
+  width: 100%;
+}
+
+.schedule-text .time {
+  border-bottom: 1px solid #ABBCC4;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+.schedule-text .title {
+  font-size: 16px;
+  margin-top: 0.5em;
+  line-height: 1.4em;
+}
+
+.schedule-text .description {
+  font-size: 14px;
+  padding: 1% 0% 1% 0%;
+  position: relative;
+  line-height: 1.4em;
+}
+
+.schedule-text .twitter {
+  font-size: 10px;
+  padding: 1% 0% 1% 0%;
+  position: relative;
+  line-height: 1.4em;
+}

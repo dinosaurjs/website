@@ -4,7 +4,7 @@ import './schedule.css'
 class Schedule extends Component {
   constructor() {
     super()
-  }
+}
 
   render() {
     return (
@@ -12,7 +12,10 @@ class Schedule extends Component {
         <header className="panel-header">
           <h2>Schedule</h2>
         </header>
-        <p>Coming soon!</p>
+        <p className="schedule-text time">{this.props.schedule.time}</p>
+        <p className="schedule-text title">{this.props.schedule.speaker}</p>
+        <p className="schedule-text description">{this.props.schedule.description}</p>
+        <p className="schedule-text twitter">{this.props.schedule.twitter}</p>
       </div>
     )
   }

@@ -1,0 +1,127 @@
+[{
+    "time": "8:15am",
+    "title": "Breakfast",
+    "speaker": "Jessica West",
+    "description": "A la carte items",
+    "twitter": "darcar31"
+  },
+  {
+    "time": "9:15am",
+    "title": "Opening Ceremonies",
+    "speaker": "Jasmine Greenaway",
+    "description": "Welcome to DinosaurJS 2019",
+    "twitter": "darcar31"
+  },
+  {
+    "time": "9:30am",
+    "title": "Talk",
+    "speaker": "Daria Caraway",
+    "description": "How to have a amicable breakup with a Javascript library",
+    "twitter": "darcar31"
+  },
+  {
+    "time": "10:00am",
+    "title": "Talk",
+    "speaker": "Saimon Sharif",
+    "description": "Codemods: Refactoring JavaScript using JavaScript",
+    "twitter": "saimonsharif"
+  },
+  {
+    "time": "10:30am",
+    "title": "Announcement",
+    "speaker": "Will Klein",
+    "description": "Workday and DinosaurJS",
+    "twitter": "workday"
+  },
+  {
+    "time": "10:35am",
+    "title": "Morning Break",
+    "speaker": "Steve Kinney",
+    "description": "How to stay hydrated with water and caffiene",
+    "twitter": "stevekinney"
+  },
+  {
+    "time": "11:10am",
+    "title": "Talk",
+    "speaker": "Lori Culberson",
+    "description": "The Art of Teaching",
+    "twitter": "irongirltx"
+  },
+  {
+    "time": "11:40am",
+    "title": "Talk",
+    "speaker": "Sarah Drasner",
+    "description": "The Future of Web Animation",
+    "twitter": "sarah_edo"
+  },
+  {
+    "time": "12:10pm",
+    "title": "Lunch",
+    "speaker": "Mike Pack",
+    "description": "How to stay fed",
+    "twitter": "_mikepack"
+  },
+  {
+    "time": "1:10pm",
+    "title": "Talk",
+    "speaker": "Rich Trott",
+    "description": "A Partial Taxonomy of Test Unreliability",
+    "twitter": "trott"
+  },
+  {
+    "time": "1:40pm",
+    "title": "Talk",
+    "speaker": "Cassidy Williams",
+    "description": "Building a Babel 7 Processor",
+    "twitter": "cassidoo"
+  },
+  {
+    "time": "2:10pm",
+    "title": "Workshop Announcement + Break",
+    "speaker": "Mike Pack",
+    "description": "Workshop Q&A",
+    "twitter": "_mikepack"
+  },
+  {
+    "time": "2:50pm",
+    "title": "Talk",
+    "speaker": "Fred K. Schott",
+    "description": "Pika: Reimagining the Registry",
+    "twitter": "FredKSchott"
+  },
+  {
+    "time": "3:20pm",
+    "title": "Talk",
+    "speaker": "Jana Beck",
+    "description": "Data science in the browser: DX & UX",
+    "twitter": "iPancreas"
+  },
+  {
+    "time": "3:50pm",
+    "title": "Break",
+    "speaker": "Steve Kinney",
+    "description": "How to stay cool",
+    "twitter": "stevekinney"
+  },
+  {
+    "time": "4:35pm",
+    "title": "Talk",
+    "speaker": "Tejas Kumar",
+    "description": "A tale of Two Architectures",
+    "twitter": "tejaskumar_"
+  },
+  {
+    "time": "5:05m",
+    "title": "Talk",
+    "speaker": "Hayley Denbraver",
+    "description": "A Postmortem on the Ingen Incident",
+    "twitter": "hayleydenb"
+  },
+  {
+    "time": "5:35pm",
+    "title": "Closing Ceremonies",
+    "speaker": "Jasmine Greenaway & Jessica West",
+    "description": "Thank you day one!",
+    "twitter": ""
+  }
+]
