@@ -16,10 +16,14 @@
   padding: 6%;
 }
 
+.sponsors-panel .sponsor {
+  max-width:30%
+}
+
 .premier-sponsors-panel img {
   max-width: 100%;
 }
 
 .sponsors-panel img {
-  max-width: 300px;
+  max-width: 100%;
 }
