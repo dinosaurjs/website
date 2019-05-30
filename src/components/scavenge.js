@@ -36,7 +36,7 @@ export default () => (
   <StaticQuery
     query={query}
     render={data => (
-      <div className="scavenge-panel panel" id="scavenge">
+      <div className="scavenge-panel panel" id="dig">
         <header className="panel-header">
           <h2>Dinosaur Dig</h2>
         </header>

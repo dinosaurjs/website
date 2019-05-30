@@ -49,7 +49,7 @@ export default () => (
               <a href="#sponsors" className="navigation-link">Sponsors</a>
             </li>
             <li>
-              <a href="#scavenge" className="navigation-link">Dig</a>
+              <a href="#dig" className="navigation-link">Dig</a>
             </li>
         </ul>
         </nav>
