@@ -10,6 +10,7 @@
 .sponsors-panel {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: #a9bcc6;
