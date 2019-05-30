@@ -48,6 +48,9 @@ export default () => (
             <li>
               <a href="#sponsors" className="navigation-link">Sponsors</a>
             </li>
+            <li>
+              <a href="#scavenge" className="navigation-link">Dig</a>
+            </li>
         </ul>
         </nav>
     )}

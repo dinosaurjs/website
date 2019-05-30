@@ -1,0 +1,57 @@
+.scavenge-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 8%;
+  color: white;
+}
+
+.scavenge-panel header {
+  padding: 0% 0% 4% 0%;
+  letter-spacing: .15em;
+}
+
+.scavenge-panel .instructions {
+  margin: 0 20px 30px 20px;
+}
+
+.scavenge-panel .about {
+  text-align: center;
+  max-width: 1000px;
+}
+
+.scavenge-panel a {
+  color: white;
+}
+
+.non-profits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.non-profit {
+  text-align: center;
+  width: 33.33333%;
+  min-width: 250px;
+  max-width: 350px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.non-profit .name {
+  margin-top: 5px;
+}
+
+.non-profit .description {
+  margin-top: 5px;
+  font-size: 90%;
+}
+
+.scavenge {
+  padding: 4%;
+}
