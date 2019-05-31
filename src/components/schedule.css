@@ -58,7 +58,7 @@
   margin-top: 0.5em;
   line-height: 1.4em;
   color: #ABBCC4;
-  padding: 0% 10% 0% 10%;
+  padding: 0% 4% 0% 10%;
   min-width: 25em;
 }
 
@@ -75,4 +75,39 @@
   padding: 1% 0% 1% 0%;
   position: relative;
   line-height: 1.4em;
+}
+
+.schedule-panel .spacer {
+  border-bottom: 1px dotted #cccccc;
+  padding-top: 15px;
+  width: 90%;
+  margin: 0 auto 10px auto;
+}
+
+.schedule-panel .details:last-child .spacer {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .schedule-panel .description {
+    padding-left: 0;
+  }
+
+  .schedule-panel .schedule-speaker {
+    margin-left: 0;
+  }
+
+  .schedule-panel .title {
+    min-width: 10em;
+    padding: 0 0 0 1%;
+    text-align: right;
+  }
+
+  .schedule-panel .time {
+    border-bottom: 0;
+  }
+
+  .schedule-panel .schedule-speaker {
+    min-width: 10em;
+  }
 }
