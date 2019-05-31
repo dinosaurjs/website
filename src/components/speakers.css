@@ -6,7 +6,7 @@
   padding: 8% 0;
 }
 
-.speakers {
+.speaker-panel .speakers {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,14 +14,14 @@
   margin-bottom: 1em;
 }
 
-.speaker {
+.speaker-panel .speaker {
   max-width: 400px;
-  margin: 3% 1% 1% 10%;
+  margin: 3% 1% 1% 1%;
   justify-content: center;
   text-align: center;
 }
 
-.speaker img {
+.speaker-panel .speaker img {
   border-radius: 50%;
   height: 150px;
   border-style: solid;
@@ -31,12 +31,12 @@
   height: auto;
 }
 
-.speaker-text {
+.speaker-panel .speaker-text {
   padding: 1% 0% 1% 0%;
   width: 100%;
 }
 
-.speaker .name {
+.speaker-panel .speaker .name {
   border-bottom: 1px solid #ABBCC4;
   font-size: 24px;
   font-weight: 300;
@@ -44,15 +44,15 @@
   padding-bottom: 0.5em;
 }
 
-.speaker .title {
+.speaker-panel .speaker .title {
   font-size: 16px;
   margin-top: 0.5em;
   line-height: 1.4em;
 }
 
-.speaker .abstract {
+.speaker-panel .speaker .abstract {
   font-size: 14px;
   padding: 1% 0% 1% 0%;
   position: relative;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }

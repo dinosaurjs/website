@@ -13,29 +13,29 @@
   letter-spacing: .15em;
 }
 
-.schedules {
+.schedule-panel .schedules {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.details {
+.schedule-panel .details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-grow: 2; /* default 0 */
 }
 
-.schedule {
+.schedule-panel .schedule {
   padding: 4%;
 }
 
-.schedule-text {
+.schedule-panel .schedule-text {
   padding: 1% 0% 1% 0%;
   width: 100%;
 }
 
-.schedule-speaker{
+.schedule-panel .schedule-speaker {
   min-width: 25em;
   margin: 3% 1% 1% 10%;
   justify-content: center;
@@ -44,7 +44,7 @@
   font-size: 20px;
 }
 
-.time {
+.schedule-panel .time {
   border-bottom: 1px solid #ABBCC4;
   font-size: 20px;
   font-weight: 300;
@@ -53,7 +53,7 @@
   color: #F05942;
 }
 
-.title {
+.schedule-panel .title {
   font-size: 16px;
   margin-top: 0.5em;
   line-height: 1.4em;
@@ -62,7 +62,7 @@
   min-width: 25em;
 }
 
-.description {
+.schedule-panel .description {
   font-size: 14px;
   padding: 1% 0% 1% 20%;
   position: relative;
@@ -70,7 +70,7 @@
   text-align: center;
 }
 
-.twitter {
+.schedule-panel .twitter {
   font-size: 10px;
   padding: 1% 0% 1% 0%;
   position: relative;
@@ -88,7 +88,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .schedule-panel .description {
     padding-left: 0;
   }
