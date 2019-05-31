@@ -1,6 +1,7 @@
 [{
     "time": "8:15am",
     "title": "Breakfast",
+    "description": "Full hot breakfast served!",
     "twitter": "jessicaewest"
   },
   {
@@ -33,6 +34,7 @@
   {
     "time": "10:35am",
     "title": "Morning Break",
+    "description": "Coffee, tea and water available",
     "twitter": "stevekinney"
   },
   {
@@ -52,6 +54,7 @@
   {
     "time": "12:10pm",
     "title": "Lunch",
+    "description": "Lunch served on-prem of the Studio Loft",
     "twitter": "_mikepack"
   },
   {
@@ -92,6 +95,7 @@
   {
     "time": "3:50pm",
     "title": "Break",
+    "description": "After party announcement",
     "twitter": "stevekinney"
   },
   {
