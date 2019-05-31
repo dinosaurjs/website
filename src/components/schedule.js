@@ -12,7 +12,7 @@ const Event = ({ time, title, speaker, description, twitter }) => (
     </article>
 
   <article className="details">
-    <div className="speaker">{speaker}</div>
+    <div className="schedule-speaker">{speaker}</div>
     <div className="description">{description}</div>
   </article>
   </React.Fragment>

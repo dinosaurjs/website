@@ -1,8 +1,6 @@
 [{
     "time": "8:15am",
     "title": "Breakfast",
-    "speaker": "",
-    "description": "A la carte items",
     "twitter": "jessicaewest"
   },
   {
@@ -30,14 +28,11 @@
     "time": "10:30am",
     "title": "Announcement",
     "speaker": "Will Klein",
-    "description": "Workday and DinosaurJS",
     "twitter": "workday"
   },
   {
     "time": "10:35am",
     "title": "Morning Break",
-    "speaker": "",
-    "description": "How to stay hydrated with water and caffiene",
     "twitter": "stevekinney"
   },
   {
@@ -57,8 +52,6 @@
   {
     "time": "12:10pm",
     "title": "Lunch",
-    "speaker": "",
-    "description": "How to stay fed",
     "twitter": "_mikepack"
   },
   {
@@ -99,8 +92,6 @@
   {
     "time": "3:50pm",
     "title": "Break",
-    "speaker": "",
-    "description": "How to stay cool",
     "twitter": "stevekinney"
   },
   {
@@ -125,3 +116,7 @@
     "twitter": ""
   }
 ]
+
+
+
+
