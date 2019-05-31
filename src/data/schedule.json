@@ -60,16 +60,16 @@
   {
     "time": "1:10pm",
     "title": "Talk",
-    "speaker": "Lori Culberson",
-    "description": "The Art of Teaching",
-    "twitter": "irongirltx"
+    "speaker": "Sarah Drasner",
+    "description": "The Future of Web Animation",
+    "twitter": "sarah_edo"
   },
   {
     "time": "1:40pm",
     "title": "Talk",
-    "speaker": "Sarah Drasner",
-    "description": "The Future of Web Animation",
-    "twitter": "sarah_edo"
+    "speaker": "Fred K. Schott",
+    "description": "Pika: Reimagining the Registry",
+    "twitter": "FredKSchott"
   },
   {
     "time": "2:10pm",
@@ -81,9 +81,9 @@
   {
     "time": "2:50pm",
     "title": "Talk",
-    "speaker": "Fred K. Schott",
-    "description": "Pika: Reimagining the Registry",
-    "twitter": "FredKSchott"
+    "speaker": "Lori Culberson",
+    "description": "The Art of Teaching",
+    "twitter": "irongirltx"
   },
   {
     "time": "3:20pm",
