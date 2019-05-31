@@ -5,13 +5,17 @@ import { StaticQuery, graphql } from "gatsby"
 import './schedule.css'
 
 const Event = ({ time, title, speaker, description, twitter }) => (
-  <article className="event">
-    <p className="schedule-text time">{time}</p>
-    <p className="schedule-text title">{title}</p>
-    <p className="schedule-text speaker">{speaker}</p>
-    <p className="schedule-text description">{description}</p>
-    <p className="schedule-text twitter">{twitter}</p>
+  <React.Fragment>
+  <article className="schedules">
+    <div className="time">{time}</div>
+    <div className="title">{title}</div>
+    </article>
+
+  <article className="details">
+    <div className="speaker">{speaker}</div>
+    <div className="description">{description}</div>
   </article>
+  </React.Fragment>
 )
 
 export default () => (

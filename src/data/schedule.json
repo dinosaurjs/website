@@ -1,16 +1,16 @@
 [{
     "time": "8:15am",
     "title": "Breakfast",
-    "speaker": "Jessica West",
+    "speaker": "",
     "description": "A la carte items",
-    "twitter": "darcar31"
+    "twitter": "jessicaewest"
   },
   {
     "time": "9:15am",
     "title": "Opening Ceremonies",
     "speaker": "Jasmine Greenaway",
     "description": "Welcome to DinosaurJS 2019",
-    "twitter": "darcar31"
+    "twitter": "paladique"
   },
   {
     "time": "9:30am",
@@ -36,7 +36,7 @@
   {
     "time": "10:35am",
     "title": "Morning Break",
-    "speaker": "Steve Kinney",
+    "speaker": "",
     "description": "How to stay hydrated with water and caffiene",
     "twitter": "stevekinney"
   },
@@ -57,7 +57,7 @@
   {
     "time": "12:10pm",
     "title": "Lunch",
-    "speaker": "Mike Pack",
+    "speaker": "",
     "description": "How to stay fed",
     "twitter": "_mikepack"
   },
@@ -78,7 +78,7 @@
   {
     "time": "2:10pm",
     "title": "Workshop Announcement + Break",
-    "speaker": "Mike Pack",
+    "speaker": "",
     "description": "Workshop Q&A",
     "twitter": "_mikepack"
   },
@@ -99,7 +99,7 @@
   {
     "time": "3:50pm",
     "title": "Break",
-    "speaker": "Steve Kinney",
+    "speaker": "",
     "description": "How to stay cool",
     "twitter": "stevekinney"
   },
@@ -120,7 +120,7 @@
   {
     "time": "5:35pm",
     "title": "Closing Ceremonies",
-    "speaker": "Jasmine Greenaway & Jessica West",
+    "speaker": "Jasmine Greenaway",
     "description": "Thank you day one!",
     "twitter": ""
   }

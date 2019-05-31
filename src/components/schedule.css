@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 8%;
+  padding: 2%;
 }
 
 .schedule-panel header {
@@ -19,6 +19,12 @@
   justify-content: center;
 }
 
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .schedule {
   padding: 4%;
 }
@@ -28,28 +34,32 @@
   width: 100%;
 }
 
-.schedule-text .time {
+.time {
   border-bottom: 1px solid #ABBCC4;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
-  margin-top: 1em;
-  padding-bottom: 0.5em;
+  margin-top: .2em;
+  padding-bottom: 0.2em;
+  color: #F05942;
 }
 
-.schedule-text .title {
+.title {
   font-size: 16px;
   margin-top: 0.5em;
   line-height: 1.4em;
+  color: #ABBCC4;
+  padding: 0% 10% 0% 10%
 }
 
-.schedule-text .description {
+.description {
   font-size: 14px;
   padding: 1% 0% 1% 0%;
   position: relative;
   line-height: 1.4em;
+  text-align: center;
 }
 
-.schedule-text .twitter {
+.twitter {
   font-size: 10px;
   padding: 1% 0% 1% 0%;
   position: relative;
