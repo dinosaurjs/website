@@ -14,16 +14,16 @@
   {
     "time": "9:30am",
     "title": "Talk",
-    "speaker": "Daria Caraway",
-    "description": "How to have a amicable breakup with a Javascript library",
-    "twitter": "darcar31"
+    "speaker": "Cassidy Williams",
+    "description": "Building a Babel 7 Processor",
+    "twitter": "cassidoo"
   },
   {
     "time": "10:00am",
     "title": "Talk",
-    "speaker": "Saimon Sharif",
-    "description": "Codemods: Refactoring JavaScript using JavaScript",
-    "twitter": "saimonsharif"
+    "speaker": "Hayley Denbraver",
+    "description": "A Postmortem on the Ingen Incident",
+    "twitter": "hayleydenb"
   },
   {
     "time": "10:30am",
@@ -40,16 +40,16 @@
   {
     "time": "11:10am",
     "title": "Talk",
-    "speaker": "Lori Culberson",
-    "description": "The Art of Teaching",
-    "twitter": "irongirltx"
+    "speaker": "Daria Caraway",
+    "description": "How to have a amicable breakup with a Javascript library",
+    "twitter": "darcar31"
   },
   {
     "time": "11:40am",
     "title": "Talk",
-    "speaker": "Sarah Drasner",
-    "description": "The Future of Web Animation",
-    "twitter": "sarah_edo"
+    "speaker": "Saimon Sharif",
+    "description": "Codemods: Refactoring JavaScript using JavaScript",
+    "twitter": "saimonsharif"
   },
   {
     "time": "12:10pm",
@@ -60,16 +60,16 @@
   {
     "time": "1:10pm",
     "title": "Talk",
-    "speaker": "Rich Trott",
-    "description": "A Partial Taxonomy of Test Unreliability",
-    "twitter": "trott"
+    "speaker": "Lori Culberson",
+    "description": "The Art of Teaching",
+    "twitter": "irongirltx"
   },
   {
     "time": "1:40pm",
     "title": "Talk",
-    "speaker": "Cassidy Williams",
-    "description": "Building a Babel 7 Processor",
-    "twitter": "cassidoo"
+    "speaker": "Sarah Drasner",
+    "description": "The Future of Web Animation",
+    "twitter": "sarah_edo"
   },
   {
     "time": "2:10pm",
@@ -101,16 +101,16 @@
   {
     "time": "4:35pm",
     "title": "Talk",
-    "speaker": "Tejas Kumar",
-    "description": "A tale of Two Architectures",
-    "twitter": "tejaskumar_"
+    "speaker": "Rich Trott",
+    "description": "A Partial Taxonomy of Test Unreliability",
+    "twitter": "trott"
   },
   {
     "time": "5:05m",
     "title": "Talk",
-    "speaker": "Hayley Denbraver",
-    "description": "A Postmortem on the Ingen Incident",
-    "twitter": "hayleydenb"
+    "speaker": "Tejas Kumar",
+    "description": "A tale of Two Architectures",
+    "twitter": "tejaskumar_"
   },
   {
     "time": "5:35pm",
