@@ -6,18 +6,18 @@ import './schedule.css'
 
 const Event = ({ time, title, speaker, description, twitter }) => (
   <React.Fragment>
-  <article className="schedules">
-    <div className="time">{time}</div>
-    <div className="title">{title}</div>
+    <article className="schedules">
+      <div className="time">{time}</div>
+      <div className="title">{title}</div>
     </article>
 
-  <article className="details">
-    <div className="schedule-speaker">{speaker}</div>
-    <div className="description">
-      {description}
-    </div>
-    <div className="spacer"></div>
-  </article>
+    <article className="details">
+      <div className="schedule-speaker">{speaker}</div>
+      <div className="description">
+        {description}
+      </div>
+      <div className="spacer"></div>
+    </article>
   </React.Fragment>
 )
 
@@ -46,7 +46,18 @@ export default () => (
           <header className="panel-header">
             <h2>Schedule</h2>
           </header>
-          {events.map(event => <Event {...event} key={event.time} />)}
+
+          <h2 className="day">Conference Day - June 20th</h2>
+          <div className="conf-day">
+            {events.map(event => <Event {...event} key={event.time} />)}
+          </div>
+
+          <hr />
+
+          <h2 className="day">Workshop Day - June 21st</h2>
+          <div className="conf-day">
+            To be announced!
+          </div>
         </section>
       )
     }}
