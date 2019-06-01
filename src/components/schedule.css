@@ -5,6 +5,7 @@
   align-items: center;
   background-color: white;
   padding: 2%;
+  overflow: hidden;
 }
 
 .schedule-panel header {
