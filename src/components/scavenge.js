@@ -48,7 +48,7 @@ export default () => (
         <ol class="instructions">
           <li>Take a photo of yourself and something dinosaur related.</li>
           <li>Post it on Twitter and tag #dinojs.</li>
-          <li>We DM you a link where you get to donate to one of the following non-profits.</li>
+          <li>We DM you a link where you get to donate $10 to one of the following non-profits.</li>
         </ol>
 
         <ul class="non-profits">
@@ -87,6 +87,8 @@ export default () => (
             and open source.</p>
           </li>
         </ul>
+
+        <p>Don't see a non-profit you like? You can specify your own.</p>
       </div>
     )}
   />
