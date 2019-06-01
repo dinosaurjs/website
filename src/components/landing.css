@@ -10,9 +10,10 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  overflow: hidden;
 }
 
-.title {
+.hero-panel .title {
   text-transform: uppercase;
   font-size: 25px;
   text-align: center;
@@ -20,34 +21,34 @@
   width: 80%;
 }
 
-.conference-name {
+.hero-panel .conference-name {
   letter-spacing: .15em;
   padding-bottom: 0.5em;
   border-bottom: 5px solid #F05A42;
 }
 
-.date {
+.hero-panel .date {
   font-size: 18px;
   letter-spacing: .15em;
 }
 
-.information {
+.hero-panel .information {
   width: 80%;
   font-size: 16px;
 }
 
-.information p {
+.hero-panel .information p {
   line-height: 1.8em;
   padding: 2em;
 }
 
-.information a {
+.hero-panel .information a {
   color: black;
   background-color: #ABBCC4;
   padding: 5px;
 }
 
-.information a:hover {
+.hero-panel .information a:hover {
   color: white;
   background-color: #F05A42;
 }
