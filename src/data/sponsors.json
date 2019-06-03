@@ -6,6 +6,12 @@
     "premier": true
   },
   {
+    "name": "Firebase",
+    "logo": "https://dinosaurjs-assets.s3-us-west-2.amazonaws.com/sponsors/logo_lockup_firebase_horizontal.png",
+    "url": "https://firebase.google.com/",
+    "premier": true
+  },
+  {
     "name": "Mozilla",
     "logo": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/sponsors/mozilla-logo-bw-rgb-sm.png",
     "url": "https://mozilla.com/",
