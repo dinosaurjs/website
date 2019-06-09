@@ -22,7 +22,7 @@
     "logo": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/sponsors/twilio-logo-white.png",
     "url": "https://www.twilio.com",
     "premier": true
-  },  
+  },
   {
     "name": "WeWork",
     "logo": "https://s3-us-west-2.amazonaws.com/dinosaurjs-assets/sponsors/WeWork_Logo_Black+(2).png",
@@ -34,12 +34,5 @@
     "logo": "https://res.cloudinary.com/snyk/image/upload/v1537345894/press-kit/brand/logo-black.png",
     "url": "https://snyk.io/",
     "premier": false
-  },
-  {
-    "name": "TBD, could be you!",
-    "logo": "https://github.com/dinosaurjs/speakers-2019/blob/7073b7e2b09c52e9566bc3f0a8721da17d9b37d1/sponsors/Color%20logo%20-%20no%20background.png?raw=true",
-    "url": "mailto:roar@dinosaurjs.org",
-    "premier": false
   }
-
 ]
