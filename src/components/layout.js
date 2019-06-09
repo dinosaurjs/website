@@ -12,6 +12,7 @@ import Organizers from './organizers';
 import Scavenge from './scavenge';
 
 import "./layout.css"
+import Emcee from './emcee';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -28,12 +29,15 @@ const Layout = ({ children }) => (
       <main>
         <Navigation />
         <Landing/>
+        <Emcee />
         <Speakers />
         <Tickets/>
         <Sponsors/>
         <Organizers/>
+        <Tickets />
         <Schedule />
         <Scavenge />
+        <Tickets />
       </main>
     )}
   />

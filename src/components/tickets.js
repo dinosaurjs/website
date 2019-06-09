@@ -9,9 +9,6 @@ class Tickets extends Component {
   render() {
     return (
       <div className="tickets-panel panel" id="tickets">
-        <header className="panel-header">
-          <h2>Tickets</h2>
-        </header>
         <a href="https://ti.to/dinosaurjs/2019" className="button">Get Your Tickets Today</a>
       </div>
     )
