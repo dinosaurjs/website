@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Dealing with my Emotion, a CSS in JS Workshop",
+    "instructor": "Manny Carrera IV and Will Klein, Workday",
+    "description": "In this workshop, you’ll learn the ins and outs of writing CSS in JS! We’ll take a React-based app with classic stylesheets, and step-by-step, migrate to CSS in JS using Emotion. We’ll cover both the benefits and the trade-offs of managing styles in JavaScript. Not only will you learn all the ways to leverage Emotion, you will become a Style Master!"
+  },
+  {
+    "title": "Web Performance with Firebase",
+    "instructor": "David East, Firebase",
+    "description": "\"How fast should my site load?\" It's a simple question, but one that doesn't have a simple answer. There's many pieces to web performance; it doesn't matter if you're using React, Angular, or slicing PSDs to tables (Okay, don't do that). In order to understand the performance of your site you need the right tools and more importantly the right mindset. This workshop will help you grow that mindset while building a website in three stages. Stage one: Learn important concepts around web performance, such as latency and bandwidth. Stage two: Measure web performance (using Firebase Performance Monitoring) and learn about common perf metrics like FCP. Stage three: Diagnose problems and deploy fixes. At the end of this workshop you'll be able to look at Firebase or the Chrome DevTools and understand what's causing poor performance. We'll also touch on tools like Docker to deploy serverless backends on Cloud Run. So bring your laptops and get ready to be able to really answer \"How fast should my site load?\""
+  },
+  {
+    "title": "TwilioQuest",
+    "instructor": "Dominik Kundel, Twilio",
+    "description": "This isn’t your typical technical workshop. You won’t show up, sit down, and sit through hours of PowerPoint. You're the boss of your own learning agenda. Choose what you want to participate in, at the pace you prefer. TwilioQuest is an interactive, self-paced game where you learn how to Twilio. TwilioQuest introduces Twilio products, features, and concepts while rewarding you with experience points and loot. There's no faster way to master Voice, SMS, Video or our other products. Whether you’ve been writing code for decades or you just started a bootcamp, you can come to level up your development skills. You’ll learn how to get up and running at scale with guidance and support from experts."
+  },
+  {
+    "title": "Go For Non-Go Developers",
+    "instructor": "Brenna Martenson, Imagine Analytics",
+    "description": "Go is becoming an increasingly necessary tool in the belt of “languages you should know to be relevant.” Although the beauty of the language is in its simplicity, the transition from JavaScript or Ruby can still be a little bumpy. In this workshop, we’ll work through the basic of Go, paying particular attention to pitfalls you may encounter transitioning from a language like JavaScript. This workshop is designed for developers with little to no Go knowledge, although collaboration is a key part of not-having-a-shitty-workshop-experience so all skill levels are welcome!"
+  }
+]

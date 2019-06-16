@@ -1,0 +1,16 @@
+.workshop-panel {
+  max-width: 500px;
+  margin: auto;
+}
+
+.workshop-panel .panel-header {
+  text-align: center;
+}
+
+.workshops-description {
+  background-color: #a9bcc6;
+  color: white;
+  font-weight: bold;
+  line-height: 1.8em;
+  padding: 1em;
+}

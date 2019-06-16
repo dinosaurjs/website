@@ -1,0 +1,10 @@
+.workshop-title {
+  color: #F05942;
+}
+
+.workshop-description {
+  line-height: 1.8em;
+  color: #666666;
+  border-left: 4px solid #a9bcc6;
+  padding-left: 1em;
+}
