@@ -25,7 +25,7 @@ const Workshops = () => (
         <header className="panel-header">
           <h2>Workshops</h2>
         </header>
-        <p className="workshops-description">On the second day, we'll have a series of free workshops for all attendees. Each workshop will be three hours long and held twice: once in the morning and again in the afternoon.</p>
+        <p className="workshops-description">On the second day (June 21st, for those of you keeping track at home), we'll have a series of free workshops for all attendees. Each workshop will be three hours long and held twice: once in the morning and again in the afternoon.</p>
         <div className="workshops">
           {data.allWorkshopsJson.edges.map(({ node: workshop }) => (
             <Workshop workshop={workshop} key={workshop.title} />

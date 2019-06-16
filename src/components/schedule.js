@@ -47,7 +47,7 @@ export default () => (
             <h2>Schedule</h2>
           </header>
 
-          <h2 className="day">Conference Day - June 20th</h2>
+          <h2 className="day">Conference Day, June 20th</h2>
           <div className="conf-day">
             {events.map(event => <Event {...event} key={event.time} />)}
           </div>
