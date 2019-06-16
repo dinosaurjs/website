@@ -51,13 +51,6 @@ export default () => (
           <div className="conf-day">
             {events.map(event => <Event {...event} key={event.time} />)}
           </div>
-
-          <hr />
-
-          <h2 className="day">Workshop Day - June 21st</h2>
-          <div className="conf-day">
-            To be announced!
-          </div>
         </section>
       )
     }}

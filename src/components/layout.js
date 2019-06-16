@@ -13,6 +13,7 @@ import Scavenge from './scavenge';
 
 import "./layout.css"
 import Emcee from './emcee';
+import Workshops from './workshops';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -36,6 +37,7 @@ const Layout = ({ children }) => (
         <Organizers/>
         <Tickets />
         <Schedule />
+        <Workshops />
         <Scavenge />
         <Tickets />
       </main>

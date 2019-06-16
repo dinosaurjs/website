@@ -46,10 +46,10 @@ export default () => (
               <a href="#schedule" className="navigation-link">Schedule</a>
             </li>
             <li>
-              <a href="#sponsors" className="navigation-link">Sponsors</a>
+              <a href="#workshops" className="navigation-link">Workshops</a>
             </li>
             <li>
-              <a href="#dig" className="navigation-link">Dig</a>
+              <a href="#sponsors" className="navigation-link">Sponsors</a>
             </li>
         </ul>
         </nav>
