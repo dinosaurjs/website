@@ -1,6 +1,7 @@
 .workshop-panel {
   max-width: 500px;
   margin: auto;
+  padding-bottom: 3em;
 }
 
 .workshop-panel .panel-header {

@@ -38,6 +38,7 @@ const Layout = ({ children }) => (
         <Tickets />
         <Schedule />
         <Workshops />
+        <Tickets />
         <Scavenge />
         <Tickets />
       </main>
