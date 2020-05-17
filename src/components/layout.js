@@ -1,19 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Img from "gatsby-image"
 import { StaticQuery, graphql } from "gatsby"
 
-import Navigation from './navigation';
-import Landing from './landing';
-import Speakers from './speakers';
-import Tickets from './tickets';
-import Schedule from './schedule';
-import Sponsors from './sponsors';
-import Organizers from './organizers';
-import Scavenge from './scavenge';
-
 import "./layout.css"
-import Emcee from './emcee';
-import Workshops from './workshops';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,23 +14,25 @@ const Layout = ({ children }) => (
             title
           }
         }
+        dinosaur: file(relativePath: { eq: "dinosaur.jpg" }) {
+          childImageSharp {
+            fixed(width: 640) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     `}
-    render={data => (
+    render={(data) => (
       <main>
-        <Navigation />
-        <Landing/>
-        <Emcee />
-        <Speakers />
-        <Tickets/>
-        <Sponsors/>
-        <Organizers/>
-        <Tickets />
-        <Schedule />
-        <Workshops />
-        <Tickets />
-        <Scavenge />
-        <Tickets />
+        <Img
+          fixed={data.dinosaur.childImageSharp.fixed}
+          alt="DinosaurJS is on hold until 2021."
+        />
+        <section>
+          <h1><strong>DinosaurJS</strong> is staying home this year.</h1>
+          <p>In light of everything that is going on in the world right now. We're going to do the safe thing and take this year off. We'll miss you all very, very much and we can't wait to see you next year!</p>
+        </section>
       </main>
     )}
   />

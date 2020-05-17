@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -90,7 +90,6 @@ code,
 kbd,
 pre,
 samp {
-  
   font-size: 1em;
 }
 figure {
@@ -556,7 +555,7 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: sans-serif; 
+  font-family: sans-serif;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -586,5 +585,10 @@ pre tt:after {
 
 .panel header {
   padding: 0% 0% 4% 0%;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
+}
+
+main {
+  max-width: 640px;
+  margin: auto;
 }
