@@ -1,1 +1,1 @@
-🦕Pull Requests accepted 🦖
+🦕Pull requests accepted 🦖
